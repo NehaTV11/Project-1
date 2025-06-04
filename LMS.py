@@ -198,6 +198,17 @@ def main_menu():
             log_action("Deleted Book")
         elif choice == '6':
             add_member()
+             log_action("Added Member")
+        elif choice == '7':
+            view_members()
+            log_action("Viewed Members")
+        elif choice == '8':
+            search_member_by_name()
+            log_action("Searched Member by Name")
+        elif choice == '9':
+            issue_book()
+            log_action("Issued Book")
+
         else:
             print("Invalid choice. Please try again.")
 
